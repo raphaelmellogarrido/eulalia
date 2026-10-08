@@ -17,6 +17,6 @@ jobs:
         with:
           server: srv1976.hstgr.io
           username: u801508224
-          password: ${{ Liasitelevi2026@ }}
-          local-dir:./dist/
-          server-dir:./public_html/
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./dist/
+          server-dir: ./public_html/
