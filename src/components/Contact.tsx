@@ -43,8 +43,7 @@ export function Collab() {
 }
 
 // Destination inbox for the contact form (via FormSubmit.co — no backend needed).
-// TODO: switch to the client's email when going live.
-const CONTACT_EMAIL = "raphaelmellogarrido@gmail.com";
+const CONTACT_EMAIL = "contacto@eulaliarodrigues.com";
 const FORM_ENDPOINT = `https://formsubmit.co/ajax/${CONTACT_EMAIL}`;
 
 export function Contact() {
@@ -133,8 +132,8 @@ export function Contact() {
               {t.desc}
             </p>
             <div className="mt-8 space-y-3">
-              <a href="mailto:publicidadeliarodrigues@gmail.com" className="flex min-w-0 items-center gap-3 rounded-2xl bg-white/80 px-4 py-4 text-sm transition sm:px-5 sm:text-base hover:bg-white">
-                <Mail className="h-5 w-5 shrink-0 text-rose" /> <span className="min-w-0 break-all">publicidadeliarodrigues@gmail.com</span>
+              <a href="mailto:contacto@eulaliarodrigues.com" className="flex min-w-0 items-center gap-3 rounded-2xl bg-white/80 px-4 py-4 text-sm transition sm:px-5 sm:text-base hover:bg-white">
+                <Mail className="h-5 w-5 shrink-0 text-rose" /> <span className="min-w-0 break-all">contacto@eulaliarodrigues.com</span>
               </a>
               <div className="flex gap-3">
                 <a href="https://www.instagram.com/eulaliarodriiguess/" target="_blank" className="flex min-w-0 flex-1 items-center gap-2 rounded-2xl bg-white/80 px-4 py-4 text-sm transition sm:px-5 hover:bg-white">
