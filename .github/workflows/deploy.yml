@@ -19,4 +19,4 @@ jobs:
           username: u801508224
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
-          server-dir: ./domains/eulaliarodrigues.com/public_html/
+          server-dir: ./public_html/
