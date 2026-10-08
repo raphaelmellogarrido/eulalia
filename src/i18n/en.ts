@@ -70,7 +70,7 @@ export const en = {
   niches: {
     label: "My little world",
     title: "What you'll find on my feed",
-    desc: "Six niches, one cozy aesthetic — so your product always feels at home in my content.",
+    desc: "Eight niches, one cozy aesthetic — so your product always feels at home in my content.",
     items: [
       { name: "Beauty", note: "skincare · makeup · GRWM" },
       { name: "Fashion", note: "try-ons · styling · accessories" },
@@ -78,6 +78,8 @@ export const en = {
       { name: "Tech", note: "cases · gadgets · setups" },
       { name: "Unboxings", note: "PR · hauls · first impressions" },
       { name: "Mom life", note: "family · baby · everyday" },
+      { name: "Foodie Life", note: "tastings · reviews · experiences" },
+      { name: "Travel & Stays", note: "resorts · hotels · getaways" },
     ],
   },
 
@@ -128,7 +130,7 @@ export const en = {
     title: "A little taste of ",
     titleEm: "my content",
     desc: "Tap any card to see the concept, format and deliverables.",
-    cats: { All: "All", Beauty: "Beauty", Tech: "Tech", Unboxing: "Unboxing", Fashion: "Fashion", "Mom life": "Mom life" },
+    cats: { All: "All", Beauty: "Beauty", Tech: "Tech", Unboxing: "Unboxing", Fashion: "Fashion", "Mom life": "Mom life", Food: "Food" },
     deliverables: "Deliverables",
     cta: "I want something like this →",
     close: "close",
@@ -182,6 +184,14 @@ export const en = {
         length: "0:28",
         details: "A raw, unfiltered ASMR style video showing everything inside my bag with satisfying sounds, natural humor, and zero script.",
         deliverables: ["1x 2m 13s ASMR video", "Satisfying sound & voiceover edit", "Raw footage / extra clips"],
+      },
+      7: {
+        type: "Foodie life",
+        hook: "PR Invite",
+        title: "I'm a matcha addicted 🤭",
+        length: "1:22",
+        details: "A PR invite turned into a cozy foodie moment — tasting, reacting and sharing my honest matcha love, filmed with a warm and natural vibe.",
+        deliverables: ["1x 1m 22s foodie video", "Tasting & honest reactions", "Raw footage / extra clips"],
       },
     } as Record<number, WorkText>,
   },

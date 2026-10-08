@@ -67,7 +67,7 @@ export function Niches() {
             </div>
             <p className="max-w-sm text-sm text-cocoa/75">{t.desc}</p>
           </div>
-          <div className="mt-6 grid grid-cols-2 gap-2.5 sm:mt-8 sm:gap-3 sm:grid-cols-3 xl:grid-cols-6">
+          <div className="mt-6 grid grid-cols-2 gap-2.5 sm:mt-8 sm:gap-3 sm:grid-cols-4">
             {t.items.map((n, i) => (
               <div key={i} className={`${nicheColors[i]} group rounded-3xl p-4 transition sm:p-5 hover:-translate-y-1 hover:shadow-lg`}>
                 <p className="font-serif text-sm italic text-cocoa/60">0{i + 1}</p>

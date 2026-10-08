@@ -1,17 +1,17 @@
-// Absolute path so images load at codigoecafe.com/eulalia with or without a trailing slash
-export const IMG = import.meta.env.DEV ? "/images/" : "/eulalia/images/";
-export const VID = import.meta.env.DEV ? "/videos/" : "/eulalia/videos/";
+// Site lives at the domain root (eulaliarodrigues.com), so assets are served from /images and /videos
+export const IMG = "/images/";
+export const VID = "/videos/";
 
 // All visible texts live in src/i18n/{en,pt,fr}.ts — the arrays below hold only
 // non-text data and must stay in the same order as their translations.
 
 export const serviceEmojis = ["📦", "🎁", "✋", "💬", "🧴", "👗", "📱", "🍼", "🎙️", "📸"];
 
-export const nicheColors = ["bg-blush", "bg-nude", "bg-matcha-soft", "bg-taro", "bg-milk", "bg-blush"];
+export const nicheColors = ["bg-blush", "bg-nude", "bg-matcha-soft", "bg-taro", "bg-milk", "bg-blush", "bg-matcha-soft", "bg-taro"];
 
 export const techEmojis = ["🧸", "🎧", "🧴", "🧶", "📦", "☕"];
 
-export type WorkCat = "Beauty" | "Tech" | "Unboxing" | "Fashion" | "Mom life";
+export type WorkCat = "Beauty" | "Tech" | "Unboxing" | "Fashion" | "Mom life" | "Food";
 
 // Texts for each work are in i18n `work.items[id]`.
 export type WorkMedia = {
@@ -40,9 +40,10 @@ export const works: WorkMedia[] = [
     cat: "Beauty",
   },
   { id: 3, video: `${VID}unboxing.mp4`, cat: "Tech" },
-  { id: 4, video: `${VID}nintendo_switch.mp4`, cat: "Beauty" },
+  { id: 4, video: `${VID}nintendo_switch.mp4`, cat: "Tech" },
   { id: 5, video: `${VID}jantar_familia.mp4`, cat: "Mom life" },
   { id: 6, video: `${VID}minha_camera.mp4`, cat: "Fashion" },
+  { id: 7, video: `${VID}food.mp4`, cat: "Food" },
 ];
 
 export const ageData = [

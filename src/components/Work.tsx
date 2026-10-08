@@ -44,7 +44,7 @@ function Gallery({ images, alt, imgClassName }: { images: string[]; alt: string;
   );
 }
 
-const cats = ["All", "Beauty", "Tech", "Unboxing", "Fashion", "Mom life"] as const;
+const cats = ["All", "Beauty", "Tech", "Unboxing", "Fashion", "Mom life", "Food"] as const;
 
 export function Work() {
   const [filter, setFilter] = useState<(typeof cats)[number]>("All");
