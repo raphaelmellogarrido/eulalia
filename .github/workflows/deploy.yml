@@ -18,5 +18,6 @@ jobs:
           server: 194.164.74.136
           username: u801508224
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist/
-          server-dir: ./public_html/
+          local-dir:./dist/
+          server-dir: /public_html/
+          log-level: verbose
