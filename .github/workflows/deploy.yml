@@ -12,10 +12,11 @@ jobs:
           node-version: 20
       - run: npm ci
       - run: npm run build
-      - uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: srv1976.hstgr.io
           username: u801508224
-          password: ${{ secrets.FTP_PASSWORD }}
+          password: ${{ Liasitelevi2026@ }}
           local-dir:./dist/
           server-dir:./public_html/
