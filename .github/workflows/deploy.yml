@@ -15,7 +15,7 @@ jobs:
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ftp://194.164.74.136
+          server: 194.164.74.136
           username: u801508224
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
